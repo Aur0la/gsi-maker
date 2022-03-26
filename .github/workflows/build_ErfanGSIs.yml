@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://roms.minovo.ml/Firmware/2021/21.3.10/sasd65S45SDE98nf/minovo_lavender_21.3.10_10.0_6254e3e691.zip
-  ROM_NAME: MIUId
+  ROM_URL: https://dosyayukle.club/2EP0/miui_raphael_hais_global_12.5.6.0_7.1_rebuild.zip?download_token=f0f89b5c5a58706c52063b39ef35392ea8ad9e1d5126fb699a089d4f86bbca8c
+  ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
   ZIP_NAME: MI-NOVO
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/berkays0733/ErfanGSIs.git  ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/Aur0la/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
