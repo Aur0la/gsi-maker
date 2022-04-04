@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dosyayukle.club/2EP0/miui_raphael_hais_global_12.5.6.0_7.1_rebuild.zip?download_token=f0f89b5c5a58706c52063b39ef35392ea8ad9e1d5126fb699a089d4f86bbca8c
+  ROM_URL: https://mg.manasleech16.workers.dev/0:/MiuiSR-Nosta_PocoX2_K30_A12.zip
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
