@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mg.manasleech16.workers.dev/0:/MiuiSR-Nosta_PocoX2_K30_A12.zip
+  ROM_URL: https://dumps.adxd.live/0:/MIUISR/Phoenix/MIUISR_Crimson_22.8.3-Phoenix.zip
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: MI-NOVO
+  ZIP_NAME: MIUI
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/Aur0la/ErfanGSIs.git
+         run: git clone https://github.com/Aur0la/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
